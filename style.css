@@ -1,0 +1,325 @@
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.material-symbols-rounded {
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.btn {
+    /* Agrega tus estilos para el botón aquí */
+    background-color: #007bff00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+
+
+.material-symbols-rounded {
+    color: #0056b3;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+
+body{
+    color: rgba(253,253,253,255);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar{
+    height: 16;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+} 
+.contenedor {
+    display: flex;
+    background-color: rgba(14,13,18,255);
+    border-radius: 20px;
+}
+
+.container {
+    width: 400px;
+   border-radius: 20px;
+    margin: none;
+    padding: none;
+    background-color: rgba(37,35,49,255);
+}
+
+.navCHATS {
+    width: 35%;
+    margin-left: 40px;
+    flex-shrink: 0; /* No se encogerá para dejar espacio al lado */
+    /* Resto de estilos */
+    background-color: rgba(37,35,49,255);
+}
+
+
+
+
+
+.navCHATS{
+    width:35%;
+    border-radius: 20px;
+}
+
+ .nombre-seleccionado{
+    margin: none;
+    
+}
+
+.conth1{
+    margin-left: 20px;
+    margin-right: 265px;
+    font-size: 27px;
+}
+.title-optios{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+
+
+}
+
+#search{
+    border: none;
+    height: 7vh;
+    width: 74%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(30,28,38,255);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}#search:hover {
+    background-color: (240,242,245,255);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+#search:focus{  
+    outline: none;
+ }
+
+    /* Estilos para el botón flotante */
+.btn-add {
+    position: fixed;
+    bottom: 20px;
+    left: 340px;
+    margin-bottom: 35px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Estilos adicionales para el botón cuando se le pasa el cursor */
+.btn-add:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.containerchats {
+    
+    height: 70vh;
+    width: 398px;
+    border-radius: 20px;
+    
+    /* Agregar un scrollbar solo vertical cuando el contenido excede la altura */
+    overflow: hidden; /* Oculta el scrollbar por defecto */
+    overflow-y: auto; /* Activa el scrollbar vertical si es necesario */
+    
+    /* Estilos personalizados para el scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #CBCBCB #fcfcfc;
+    
+    &::-webkit-scrollbar {
+        width: 10px;
+    
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background-color:transparent;
+        
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #042d4e7d;
+        border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color:   #0540707d;
+    }
+}
+
+
+
+
+.divimgchat{
+    margin: 7px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 10px;
+     background-color: rgba(30,28,38,255);
+  
+}
+
+.imgchat{
+    height: 7vh;
+    width: 13%;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.nombredeusuario{
+    margin-top: -10px;
+    margin-left: 10px;
+
+    
+}
+
+.navselecionado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenidochat{
+    margin-left: 2px;
+    border-radius: 20px;
+    width: 433px;
+    height: 84vh;
+
+}
+.containerinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#search2{
+        
+        border: none;
+        height: 7vh;
+        width: 90%;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: rgba(30,28,38,255);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }#search2:hover {
+        background-color: (240,242,245,255);
+        transform: translateY(-3px) scale(1.02);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    #search2:focus{  
+        outline: none;
+     }
+
+
+     .mensajes-enviados{
+           
+        border-radius: 20px;
+        height: 73vh;
+        width: 98%;
+        margin-bottom: 4px;
+        overflow: hidden; 
+         overflow-y: auto; 
+    
+    
+    scrollbar-width: thin;
+    scrollbar-color: #CBCBCB #fcfcfc;
+    
+    &::-webkit-scrollbar {
+        width: 10px;
+        
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+        
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #042d4e7d;
+        border-radius: 15px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #0540707d;
+    }
+     
+
+    }
+
+     .burbujatexto{
+       background-color: rgba(67,63,82,255);
+        border-radius: 20px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+       margin-left: 5px;
+
+     }
+     
+.burbujatextoenviado{
+      background-color:rgba(35,98,252,0.5);
+        border-radius: 20px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+       margin-left: 34px;
+       
+}
+
+     .texto{
+       word-wrap: break-word;
+       max-width: 400px;
+       padding-left: 7px;
+       padding-right: 7px;
+     }
+
+     .btnsend{
+        background-color:rgba(5, 5, 24, 0);
+        height: 5vh;
+        margin-left: 6px;
+        border: none;
+     }
+     .btnsend:hover{
+        background-color: #0057b32d;
+     }
